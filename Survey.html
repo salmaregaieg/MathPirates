@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://www.gstatic.com/firebasejs/6.3.3/firebase.js"></script>
+
+    <link rel="shortcut icon" type="image/x-icon" href="PhotosAnimations/free-png-plus-sign-download-600.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js?fbclid=IwAR0l4Ux7D6W18CY6zex_X1iyGh6rXYaLEktuxM8Kdd8V1RqyFofmu74QoKE" ></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="css/Mystyle1.css">
+</head>
+    <title>Survey</title>
+</head>
+<body>
+    <nav class=" navbar navbar-expand-lg navbar-light ">
+        <a class="navbar-brand" href="#"><embed class="animation" src="PhotosAnimations/logo.gif"> </a> 
+        <div class="aa collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ">
+            <li class="nav-item ">
+              <a class="nav-link" href="Index.html"><font>Home  </font><span class="sr-only"></span></a>
+            </li> <br>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Courses
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="Kindergartenn.html">Kindergarten</a>
+                <a class="dropdown-item" href="Elementary.html">Elementary Levels </a>
+              </div>
+            </li><li class="nav-item active">
+              <a class="nav-link" href="Survey.html">Survey</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <a href="Search.html"><button class="btn btn-outline-success my-2 my-sm-0" type="button">Browse</button></a>
+          </form>
+        </div>
+      </nav>
+
+      <div class="bod1"><div class="fo"><form id="contact">
+          <div class="form-group"> 
+            <h2> Please fill this survey to help us improve your experience with MathPirates </h2>
+            <hr>
+              <label class="bb" for="exampleFormControlInput1 bb">Name</label>
+              <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name and last name">
+            </div>
+        <div class="form-group">
+          <label class="bb" for="exampleFormControlInput2">Email address</label>
+          <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com">
+        </div>
+        <div class="form-group">
+          <label class="bb" for="exampleFormControlSelect3">Level</label>
+          <select class="form-control" id="exampleFormControlSelect3">
+            <option>Kindergarten</option>
+            <option>Elementary</option>
+          </select>
+        </div>
+        
+        <label class="bb"> Rate Your Experience with MathPirates</label> <br>
+        <div class="form-check form-check-inline"> 
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+  <label class="form-check-label" for="inlineRadio1" >Very Bad</label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+  <label class="form-check-label" for="inlineRadio2">Bad</label>
+</div>
+<div class="form-check form-check-inline"> 
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+  <label class="form-check-label " for="inlineRadio3">Good</label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option4">
+  <label class="form-check-label " for="inlineRadio4">Very Good</label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio5" value="option5">
+  <label class="form-check-label " for="inlineRadio5">Excellent</label>
+</div>
+        <div class="form-group">
+          <br>
+          <label class="bb" for="exampleFormControlTextarea1">Additional Feedback</label>
+          <textarea class="form-control" id="message" name="message" rows="3"></textarea>
+        </div>
+        <input type="submit" value="Submit"class="btn btn-outline-light">
+      </form> </div> </div>
+</body>
+
+
+
+
+<script src="Main.js"></script>
+</html>
